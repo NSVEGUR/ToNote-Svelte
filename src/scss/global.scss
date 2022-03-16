@@ -1,0 +1,19 @@
+@import './reset.scss';
+@import './theme.scss';
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+	font-family: $primary-font;
+	background: $primary-color;
+  font-size: $primary-font-size;
+  h1{
+    font-family: $secondary-font;
+    font-size: $secondary-font-size;
+  }
+}
